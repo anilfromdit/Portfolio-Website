@@ -16,9 +16,9 @@
     --primaryVariant:rgba(77,181,255,0.4);
     --lightWhite:rgba(255,255,255,0.6);
     --transition:all 400ms ease;
-    --width-sm:75%;
+    --width-sm:90%;
     --width-md:86%;
-    --width-lg:90%;
+    --width-lg:75%;
 }
 html{
 scroll-behavior: smooth;    
@@ -49,7 +49,6 @@ h1{
 
 section{
     margin-top: 8rem;
-    height: 100vh;
 }
 
 section>h2,section>h5{

@@ -30,11 +30,10 @@ scroll-behavior: smooth;
 body{
     font-family: 'Poppins', sans-serif;
     background: var(--background);
+    background-size: cover;
     color: white;
     line-height: 1.7;
 }
-
-
 
 .container{
     width: var(--width-lg);

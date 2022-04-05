@@ -5,7 +5,6 @@ import { FaLinkedin } from 'react-icons/fa'
 import { BsInstagram } from 'react-icons/bs'
 const Contact = () => {
   const api = process.env.REACT_APP_FORM_SPREE_URL_API;
-  console.log(api)
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>

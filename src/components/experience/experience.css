@@ -30,6 +30,11 @@
     row-gap: 2rem;
 
 }
+.skillBox{
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1.5rem;
+
+}
 
 .experience__details{
     display: flex;
@@ -41,6 +46,10 @@
     color: var(--primary);
 }
 
+.skills{
+    width: 200%;
+    /* margin-left: 10%; */
+}
 
 @media screen and (max-width:1024px) {
     
@@ -54,6 +63,11 @@
     }
     .experience__content{
         padding:1rem;
+    }
+    .skillBox{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
+    
     }
 }
 

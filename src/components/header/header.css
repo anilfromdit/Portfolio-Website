@@ -36,10 +36,10 @@ header{
 
 .ME{
     background: var(--primary);
-    width: 19rem;
+    width: 23rem;
     height: 23rem;
     position: absolute;
-    left: calc(50% - 9.5rem);
+    left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 100%;
     overflow: hidden;
@@ -50,6 +50,10 @@ header{
     right: -2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
+}
+
+.scroll__down svg{
+    transform: translateX(5px) translateY(3px)
 }
 
 @media screen and (max-width:1024px) {

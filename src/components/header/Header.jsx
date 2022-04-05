@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import CallToAction from './CallToAction'
 import Me from '../../assets/me.png'
+import {AiOutlineArrowRight} from 'react-icons/ai'
 import MySocials from './MySocials'
 const Header = () => {
   return (
@@ -15,7 +16,12 @@ const Header = () => {
         <div className="ME">
           <img src={Me} alt="my portfolio "/>
         </div>
-        <a href='#contact' className='scroll__down'>Scroll Down</a>
+        <a href='#contact' className='scroll__down'>
+          <>
+          Scroll Down
+          <AiOutlineArrowRight/>
+          </>
+        </a>
       </div>
     </header>
   )

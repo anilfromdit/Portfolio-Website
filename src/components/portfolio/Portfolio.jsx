@@ -1,6 +1,5 @@
 import React from 'react'
 import './portfolio.css'
-import Sample from '../../assets/sample.webp'
 import weDo from '../../assets/ProjectLogos/wedo.webp'
 import mmp from '../../assets/ProjectLogos/mmp.webp'
 import letMeWatchAnime from '../../assets/ProjectLogos/letMeWatchAnime.webp'

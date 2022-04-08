@@ -26,10 +26,13 @@ gap:2.5rem;
 .projectImage{
     min-height: 20rem;
     max-height: 20rem;
+    max-width: 100%;
+    
 }
 .portfolio__item h3{
     margin: 1.2rem 0 2rem;
     text-align: center;
+    color: black;
 }
 .portfolio__item-cta{
 display: flex;

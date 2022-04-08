@@ -10,18 +10,11 @@
 }
 
 :root{
-    /* --background:#1f1f38;
-    --backgroundVariant:#2c2c6c;
-    --primary:#4db5ff;
-    --primaryVariant:rgba(77,181,255,0.4);
-    --lightWhite:rgba(255,255,255,0.6); */
     --background:#EAE7DC;
     --backgroundVariant:#D8C3A5;
     --primary:#E98074;
     --primaryVariant:#8E8D8A;
     --lightWhite:rgba(0,0,0,0.6);
-
-
     --transition:all 400ms ease;
     --width-sm:90%;
     --width-md:86%;
@@ -113,7 +106,9 @@ img{
 .kindOfGray{
 color: rgba(0, 0, 0, 0.7);
 }
-
+.primaryColor{
+    color:var(--primary)
+}
 @media screen and (max-width:1024px){
     .container{
         width: var(--width-md);

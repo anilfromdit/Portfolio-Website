@@ -24,6 +24,11 @@
     color: var(--primary);
 }
 
+.experience__details > svg{
+    width: 1.5em;
+    height: 1.2em;
+    color: blue;
+}
 .experience__content{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -49,10 +54,6 @@
 .skills{
     width: 200%;
     /* margin-left: 10%; */
-}
-
-.experience__details svg{
-    color: blue;
 }
 
 @media screen and (max-width:1024px) {

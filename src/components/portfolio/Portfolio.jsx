@@ -1,36 +1,41 @@
 import React from 'react'
 import './portfolio.css'
 import Sample from '../../assets/sample.webp'
+import weDo from '../../assets/ProjectLogos/wedo.webp'
+import mmp from '../../assets/ProjectLogos/mmp.webp'
+import letMeWatchAnime from '../../assets/ProjectLogos/letMeWatchAnime.webp'
+import portfolio from '../../assets/ProjectLogos/portfolio.webp'
+import Emart from '../../assets/ProjectLogos/Emart.webp'
 
 const Portfolio = () => {
   const data = [
     {
       id: 1,
-      image: Sample,
+      image: mmp,
       title: "Mark Me Present",
       github: "https://github.com/anilfromdit/Mark-Me-Present-Pro--MMP",
       demo: "https://github.com/anilfromdit/Mark-Me-Present-Pro--MMP"
     }, {
       id: 2,
-      image: Sample,
+      image: weDo,
       title: "We Do",
       github: "https://github.com",
       demo: "https://github.com"
     }, {
       id: 3,
-      image: Sample,
+      image: Emart,
       title: "E-mart",
       github: "https://github.com/anilfromdit/E-Mart",
       demo: "https://github.com/anilfromdit/E-Mart"
     }, {
       id: 4,
-      image: Sample,
+      image: portfolio,
       title: "Portfolio Website",
       github: "https://github.com/anilfromdit/Portfolio-Website",
       demo: "#"
     }, {
       id: 5,
-      image: Sample,
+      image: letMeWatchAnime,
       title: "Let Me Watch Anime",
       github: "https://github.com/anilfromdit/Let-Me-Watch-Anime",
       demo: "https://github.com/anilfromdit/Let-Me-Watch-Anime"
@@ -46,7 +51,7 @@ const Portfolio = () => {
             return (
               <article key={id} className='portfolio__item'>
                 <div className="portfolio__item-img">
-                  <img src={image} alt={title} />
+                  <img className='projectImage' src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">

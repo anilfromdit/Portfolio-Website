@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/aboutMe.png'
+import ME from '../../assets/aboutMe.webp'
 import { FiAward } from 'react-icons/fi'
 import { AiOutlineProject } from 'react-icons/ai'
 import { FaGraduationCap } from 'react-icons/fa'

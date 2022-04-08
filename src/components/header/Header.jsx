@@ -1,15 +1,15 @@
 import React from 'react'
 import './header.css'
 import CallToAction from './CallToAction'
-import Me from '../../assets/me.png'
+import Me from '../../assets/me.webp'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import MySocials from './MySocials'
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello,I am</h5>
-        <h1>Anil Gulati</h1>
+        <h5 className='kindOfGray' >Hello,I am</h5>
+        <h1 className='kindOfGray' >Anil Gulati</h1>
         <h5 className='text-light'>Full Stack Developer</h5>
         <CallToAction/>
         <MySocials/>

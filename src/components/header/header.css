@@ -39,7 +39,7 @@ header{
     width: 19rem;
     height: 19rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(50% - 9rem);
     margin-top: 4rem;
     border-radius: 100%;
     overflow: hidden;

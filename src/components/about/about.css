@@ -43,6 +43,7 @@ transform: rotate(0);
     background: transparent;
     border-color: var(--primaryVariant);
     cursor: pointer;
+    
      
 }
 
@@ -54,7 +55,6 @@ transform: rotate(0);
 
 .about__card h5{
     font-size: 0.95rem;
-
 }
 
 .about__card small{

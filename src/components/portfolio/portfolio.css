@@ -23,12 +23,18 @@ gap:2.5rem;
     overflow: hidden;
 }
 
+.projectImage{
+    min-height: 20rem;
+    max-height: 20rem;
+}
 .portfolio__item h3{
     margin: 1.2rem 0 2rem;
+    text-align: center;
 }
 .portfolio__item-cta{
 display: flex;
 gap: 1rem;
+justify-content: space-evenly;
 margin-bottom: 1rem;
 }
 

@@ -25,7 +25,7 @@ const Portfolio = () => {
       image: Emart,
       title: "E-mart",
       github: "https://github.com/anilfromdit/E-Mart",
-      demo: "https://github.com/anilfromdit/E-Mart"
+      demo: "https://emart-anil.herokuapp.com/"
     }, {
       id: 4,
       image: portfolio,

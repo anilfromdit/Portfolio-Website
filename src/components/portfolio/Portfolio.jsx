@@ -25,7 +25,11 @@ const Portfolio = () => {
       image: Emart,
       title: "E-mart",
       github: "https://github.com/anilfromdit/E-Mart",
+<<<<<<< HEAD
       demo: "https://emart-anil.herokuapp.com/"
+=======
+      demo: "https://github.com/anilfromdit/E-Mart"
+>>>>>>> 5b5b5291f7f13f334854b3f7444c22a8c08cf2ba
     }, {
       id: 4,
       image: portfolio,

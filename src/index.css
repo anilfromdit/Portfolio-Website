@@ -10,11 +10,24 @@
 }
 
 :root{
+<<<<<<< HEAD
+=======
+    /* --background:#1f1f38;
+    --backgroundVariant:#2c2c6c;
+    --primary:#4db5ff;
+    --primaryVariant:rgba(77,181,255,0.4);
+    --lightWhite:rgba(255,255,255,0.6); */
+>>>>>>> 5b5b5291f7f13f334854b3f7444c22a8c08cf2ba
     --background:#EAE7DC;
     --backgroundVariant:#D8C3A5;
     --primary:#E98074;
     --primaryVariant:#8E8D8A;
     --lightWhite:rgba(0,0,0,0.6);
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 5b5b5291f7f13f334854b3f7444c22a8c08cf2ba
     --transition:all 400ms ease;
     --width-sm:90%;
     --width-md:86%;
@@ -106,9 +119,13 @@ img{
 .kindOfGray{
 color: rgba(0, 0, 0, 0.7);
 }
+<<<<<<< HEAD
 .primaryColor{
     color:var(--primary)
 }
+=======
+
+>>>>>>> 5b5b5291f7f13f334854b3f7444c22a8c08cf2ba
 @media screen and (max-width:1024px){
     .container{
         width: var(--width-md);

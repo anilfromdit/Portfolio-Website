@@ -24,11 +24,14 @@
     color: var(--primary);
 }
 
+<<<<<<< HEAD
 .experience__details > svg{
     width: 1.5em;
     height: 1.2em;
     color: blue;
 }
+=======
+>>>>>>> 5b5b5291f7f13f334854b3f7444c22a8c08cf2ba
 .experience__content{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -56,6 +59,13 @@
     /* margin-left: 10%; */
 }
 
+<<<<<<< HEAD
+=======
+.experience__details svg{
+    color: blue;
+}
+
+>>>>>>> 5b5b5291f7f13f334854b3f7444c22a8c08cf2ba
 @media screen and (max-width:1024px) {
     
     .experience__container{

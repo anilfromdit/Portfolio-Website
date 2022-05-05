@@ -4,12 +4,16 @@ import CallToAction from './CallToAction'
 import Me from '../../assets/me.webp'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import MySocials from './MySocials'
+<<<<<<< HEAD
 import Typewriter from 'typewriter-effect';
+=======
+>>>>>>> 5b5b5291f7f13f334854b3f7444c22a8c08cf2ba
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
         <h5 className='kindOfGray' >Hello,I am</h5>
+<<<<<<< HEAD
         <h1 style={{color:'black'}}>Anil Gulati</h1>
       
 <Typewriter 
@@ -40,6 +44,10 @@ options={
     .start();
   }}
 />
+=======
+        <h1 className='kindOfGray' >Anil Gulati</h1>
+        <h5 className='text-light'>Full Stack Developer</h5>
+>>>>>>> 5b5b5291f7f13f334854b3f7444c22a8c08cf2ba
         <CallToAction/>
         <MySocials/>
         <div className="ME">

@@ -1,6 +1,10 @@
 {
   "name": "portfolio",
+<<<<<<< HEAD
   "homepage": "https://anilgulati.herokuapp.com/",
+=======
+  "homepage":"https://anilgulati.herokuapp.com/",
+>>>>>>> 5b5b5291f7f13f334854b3f7444c22a8c08cf2ba
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +15,10 @@
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
     "react-scripts": "5.0.0",
+<<<<<<< HEAD
     "typewriter-effect": "^2.18.2",
+=======
+>>>>>>> 5b5b5291f7f13f334854b3f7444c22a8c08cf2ba
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,6 +1,10 @@
 import React from 'react'
 import './experience.css'
-import { BsFillPatchCheckFill  } from 'react-icons/bs'
+import { BsFillPatchCheckFill } from 'react-icons/bs'
+
+const languages = ['Java', 'Java Script', 'Python', 'C', 'HTML', 'CSS']
+const development = ['Android APP Development (Java)', 'Full Stack Web Development', 'Browser Extension Development']
+const framework = ['React Js', 'Node Js', 'Express Js', 'Redux', 'Socket IO', 'MongoDB', 'GIT', 'SQL', 'Spring Boot', 'JSwing', 'Linux', 'Material UI', 'Ant Design']
 
 const Experience = () => {
   return (
@@ -11,149 +15,53 @@ const Experience = () => {
         <div className="languages">
           <h3>Languages</h3>
           <div className="experience__content">
+            {
+              languages.map(language => (
+                <article className='experience__details'>
+                  <BsFillPatchCheckFill className='experience__details-icon' />
+                  <div>
+                    <h4>{language}</h4>
+                  </div>
+                </article>
+              ))
 
-            <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Java</h4>
-              </div>
-              </article>
-              <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Java Script</h4>
-              </div>
-</article>
-              <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Python</h4>
-              </div>
-              </article>
-              <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>C</h4>
-              </div>
-              </article>
-              <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>HTML</h4>
-              </div>
-              </article>
-              <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>CSS</h4>
-              </div>
-            </article>
+            }
           </div>
-
         </div>
-        
-        <div className="development">
 
+        <div className="development">
           <h3>Development</h3>
           <div className="experience__content">
+            {
+              development.map(tech => (
+                <article className='experience__details'>
+                  <BsFillPatchCheckFill className='experience__details-icon' />
+                  <div>
+                    <h4>{tech}</h4>
+                  </div>
+                </article>
+              ))
 
-            <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Android App Development</h4>
-              </div>
-                </article>
-            <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Full Stack Web Development</h4>
-              </div>
-                </article>
-            <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Browser Extension Development</h4>
-              </div>
-                </article>
-              
+            }
           </div>
-
         </div>
 
         <div className="skills">
-
           <h3>Framework/Libraries</h3>
           <div className="experience__content  skillBox" >
-
-            <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>REACT</h4>
-              </div>
+            {
+              framework.map(skill => (
+                <article className='experience__details'>
+                  <BsFillPatchCheckFill className='experience__details-icon' />
+                  <div>
+                    <h4>{skill}</h4>
+                  </div>
                 </article>
-            <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Node.JS</h4>
-              </div>
-                </article>
-            <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>SOCKET IO</h4>
-              </div>
-                </article>
-            <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Express.JS</h4>
-              </div>
-                </article>
-            <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>REDUX</h4>
-              </div>
-                </article>
-            <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Mongo DB</h4>
-              </div>
-                </article>
-            <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>GIT</h4>
-              </div>
-                </article>
-            <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>GIT</h4>
-              </div>
-                </article>
-            <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>GIT</h4>
-              </div>
-                </article>
-            <article className='experience__details'>
-                <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>GIT</h4>
-              </div>
-                </article>
-              
+              ))
+            }
           </div>
-
         </div>
-
-
-
       </div>
-
     </section>
   )
 }

@@ -20,11 +20,11 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
 
-              <article className="about__card">
-                <FaGraduationCap className='about__icon' />
-                <h5>Qualification</h5>
-                <small>Pursuing B.Tech CSE @DIT</small>
-              </article>
+            <article className="about__card">
+              <FaGraduationCap className='about__icon' />
+              <h5>Qualification</h5>
+              <small>Pursuing B.Tech CSE @DIT</small>
+            </article>
             <article className="about__card">
               <FiAward className='about__icon' />
               <h5>Experience</h5>

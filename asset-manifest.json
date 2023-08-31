@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b8fe1b1e.css",
+    "main.js": "/static/js/main.5fa3e956.js",
+    "static/media/letMeWatchAnime.webp": "/static/media/letMeWatchAnime.a76d991e12db7476ef4b.webp",
+    "static/media/aboutMe.webp": "/static/media/aboutMe.f3d5832841c27ab671c2.webp",
+    "static/media/me.webp": "/static/media/me.7293bf0d4ab0546a4ca5.webp",
+    "static/media/resume.pdf": "/static/media/resume.ca48137275fd1553f607.pdf",
+    "static/media/portfolio.webp": "/static/media/portfolio.b00df6e61d7877dcb02c.webp",
+    "static/media/wedo.webp": "/static/media/wedo.18e3cc3ce52f927e85f6.webp",
+    "static/media/mmp.webp": "/static/media/mmp.91e9877589ed5e3e2e9c.webp",
+    "static/media/Emart.webp": "/static/media/Emart.3e7e4e09fab2feca5c1d.webp",
+    "index.html": "/index.html",
+    "main.b8fe1b1e.css.map": "/static/css/main.b8fe1b1e.css.map",
+    "main.5fa3e956.js.map": "/static/js/main.5fa3e956.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8fe1b1e.css",
+    "static/js/main.5fa3e956.js"
+  ]
+}
